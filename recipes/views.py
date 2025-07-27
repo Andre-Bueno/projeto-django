@@ -6,11 +6,10 @@ def home(request):
         'name': 'André Luiz'
     })
 
-def temp(request):
-    return render(request, 'apagar/temp.html')
+def contato(request):
+    return render(request, 'recipes/contatos.html')
 
 def sobre(request):
     return HttpResponse('Sobre - Pagina Sobre')
 
-def contato(request):
-    return HttpResponse('Contato - Pagina de Contato')
+
