@@ -6,10 +6,4 @@ def home(request):
         'name': 'André Luiz'
     })
 
-def contato(request):
-    return render(request, 'recipes/contatos.html')
-
-def sobre(request):
-    return HttpResponse('Sobre - Pagina Sobre')
-
 
